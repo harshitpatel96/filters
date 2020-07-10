@@ -1,0 +1,34 @@
+body {  background:url('https://i.ibb.co/6RFhD04/unsplash-Josh-Earltransparent.png') no-repeat fixed center;
+  background-blend-mode:darken;
+  font-family: Verdana;
+  margin: 40px;
+}
+
+.header{
+  text-align: center;
+}
+
+.loadingsec{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.filtersec{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.weirdfilters{
+  margin-left: 300px;
+  margin-top: 20px;
+}
+canvas {
+  width: 540pt;
+  height: 720pt;
+  left:50%;
+  top:50%;
+  margin-left: 300px;
+  margin-top: 10px;
+  border: 1px solid gray;
+}
+

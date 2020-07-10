@@ -1,0 +1,34 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1 class="header"> Filters </h1>
+<h1 class="header">by Harshit Patel</h1>
+
+<canvas id=imagecan> </canvas>
+
+<h2 class="loadingsec"> Load Image </h2>
+<div class="loadingsec">
+  Upload Image: <input type="file" multiple="false" accept="image/*" id="upload" onchange="loadImage()">
+  <input type="button" value="Clear Canvas"
+         onclick="clearCanvas()">
+</div>
+
+<h2 class="filtersec"> Choose Filter </h2>
+<div class="filtersec"> 
+  <input type="button" value="Original"
+         onclick="showOriginal()">
+  <input type="button" value="Red Filter"
+         onclick="applyRed()">
+  <input type="button" value="Green Filter"
+         onclick="applyGreen()">
+  <input type="button" value="Blue Filter"
+         onclick="applyBlue()">
+  <input type="button" value="Grayscale Filter" onclick="grayscale()">
+  
+</div>
+
+<h3 class="weirdfilters"> Frames </h3>
+<div class="weirdfilters">
+  <input type="button" value="Barca Fan" onclick="barcaframe()"> 
+  <input type="button" value="Rainbow Filter" onclick="RainBowFilter()">
+</div>
