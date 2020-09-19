@@ -9,7 +9,7 @@ body {  background:url('https://i.ibb.co/6RFhD04/unsplash-Josh-Earltransparent.p
 }
 
 .loadingsec{
-  margin-left: 450px;
+  margin-left: 300px;
   margin-top: 20px;
 }
 
@@ -23,8 +23,8 @@ body {  background:url('https://i.ibb.co/6RFhD04/unsplash-Josh-Earltransparent.p
   margin-top: 20px;
 }
 canvas {
-  width: 540pt;
-  height: 720pt;
+  width: 720pt;
+  height: 480pt;
   left:50%;
   top:50%;
   margin-left: 300px;
